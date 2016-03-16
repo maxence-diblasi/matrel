@@ -1,0 +1,67 @@
+#movie{
+    background: $blue-dark;
+    .movie-container{
+        padding-top:50px;
+        padding-bottom:20px;
+        padding-left:15px;
+        padding-right:15px;
+        h3{
+            line-height: 25px;
+            color:$blanc;
+            text-transform: uppercase;
+            font-family: $open;
+            font-size: 20px;
+            font-weight:600;
+            margin-bottom:25px;
+            .ic-youtube{
+                float:left;
+                margin-right:15px;
+            }
+        }
+    }
+}
+#produit-similaire{
+    background: $blanc;
+    padding-top:50px;
+    padding-bottom:15px;
+    h3{
+        line-height: 25px;
+        color:$grey-dark;
+        text-transform: uppercase;
+        font-family: $open;
+        font-size: 20px;
+        font-weight:600;
+        margin-bottom:25px;
+        .printeuse-noir{
+            float:left;
+            margin-right:15px;
+        }
+    }
+    .block-visuel{
+        background:$blanc;
+        border: solid 1px $grey-light;
+        height:215px;
+        padding-left: 30px;
+        padding-right: 30px;
+        transition: 0.4s ease all;
+        &:hover{
+            border: solid 1px $orange-dare;
+            transition: 0.4s ease all;
+            transform: scale(2.05);
+        	-ms-transform: scale(1.05);
+        	-webkit-transform: scale(1.05);
+        	-o-transform: scale(1.05);
+        	-moz-transform: scale(1.05);
+        }
+    }
+    h4{
+        color:$noir;
+        text-transform: uppercase;
+        text-align : center;
+        font-family: $open;
+        font-size: 14px;
+        font-weight:600;
+        margin-top:17px;
+        padding-bottom:30px;
+    }
+}

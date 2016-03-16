@@ -1,0 +1,70 @@
+header{
+    #header-top{
+        width:100%;
+        padding-top:30px;
+        margin-bottom:20px;
+        .logo-block{
+            float:left;
+            .logo{
+                float:left;
+                padding-right:10px;
+            }
+            h1{
+                padding-top:24px;
+                font-family: arial;
+                font-size:14px;
+                color:$grey-head;
+            }
+        }
+        .catalogue-dell{
+            float:right;
+            margin-top:17px;
+            display:block;
+            text-decoration: none;
+            line-height:15px;
+            font-family: $open;
+            font-weight: 600;
+            font-size:12px;
+            color:$blanc;
+            background: $orange-dare;
+            width:180px;
+            height:40px;
+            border-radius: 3px;
+            padding-top:5px;
+            padding-left:10px;
+            padding-right:10px;
+            transition: 0.4s ease all;
+            &:hover{
+                transition: 0.4s ease all;
+                background:$orange-dare-dark;
+            }
+            img{
+                padding-right:10px;
+                padding-bottom: 10px;
+                float:left;
+                padding-top: 5px;
+
+            }
+        }
+    }
+}
+#example-menu{
+    background: $blue-dark;
+    .top-bar-left{
+        background: $blue-dark;
+        ul{
+            background: $blue-dark;
+            li{
+                background: $blue-dark;
+                a{
+                    background: $blue-dark;
+                    border-right:none;
+                    margin-right:30px;
+                    &:hover{
+                        border-bottom: 4px solid $blanc;
+                    }
+                }
+            }
+        }
+    }
+}

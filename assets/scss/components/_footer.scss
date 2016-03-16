@@ -1,0 +1,36 @@
+footer{
+    background:$grey-ddark;
+    padding-top:40px;
+    padding-bottom:10px;
+    p{
+        text-align: center;
+        font-family: $open;
+        font-weight: 600;
+        font-size:12px;
+        text-align: left;
+        text-transform: uppercase;
+        color: $blanc;
+    }
+    ul{
+        li{
+            list-style-type: none;
+            .icone-foot{
+                margin-right:10px;
+            }
+            a{
+                list-style-type: none;
+                text-decoration: none;
+                color: $blanc;
+                font-family: $open;
+                font-weight: 600;
+                font-size: 12px;
+                text-transform: uppercase;
+                transition: 0.4s ease all;
+                &:hover{
+                    transition: 0.4s ease all;
+                    color:$orange-dare;
+                }
+            }
+        }
+    }
+}

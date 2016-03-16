@@ -1,0 +1,155 @@
+#fille-dariane{
+    margin-top:30px;
+    margin-bottom:20px;
+    .breadcrumbs{
+        font-family: $open;
+        font-size: 11 px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration:none;
+        ul{
+            li{
+                a{
+                    text-decoration:none;
+                    color: $blue-intense;
+                    border-bottom: 0px;
+                    transition: 0.4s ease all;
+                    &:hover{
+                        text-decoration:none;
+                        transition: 0.4s ease all;
+                        color:$blue-dark;
+                        border-bottom: 0px;
+                    }
+                }
+            }
+        }
+        .unavailable{
+            a{
+                text-decoration:none;
+                color:$grey-dark
+            }
+        }
+    }
+}
+#produit{
+    padding-top:30px;
+    .slideshow-slideleft{
+        display: none;
+    }
+    .slideshow-slideright{
+        display: none;
+    }
+    .visu-produit{
+        background:$blanc;
+        padding:30px !important;
+        border: solid 1px $grey-light;
+        .visu-printer{
+            margin:0 auto;
+            width:100%;
+            height:auto;
+
+        }
+
+    }
+    .texte-produit{
+        background:$blanc;
+        padding-left:40px;
+        .titre-produit{
+            .ic-print{
+                float:left;
+                padding-top:5px;
+                margin-right:15px;
+            }
+            h2{
+                color:black;
+                text-transform: uppercase;
+                font-family: $open;
+                font-size: 20px;
+                font-weight:600;
+                margin-bottom: 20px;
+            }
+            p{
+                font-family: $open;
+                font-size: 12px;
+                text-align: left;
+                color:$noir;
+                margin-bottom:20px;
+                b{
+                    color:$blue-dark;
+                    text-transform: uppercase;
+                    font-size:14px;
+                    font-weight: 600;
+                    margin-bottom:5px;
+                }
+            }
+            .last-p{
+                margin-bottom:20px;
+            }
+        }
+        .bouton2{
+            a{
+                display: inline-block;
+                height:40px;
+                width: 240px;
+                background: $jaune;
+                border-radius: 5px;
+                text-decoration: none;
+                font-family: $open;
+                font-weight: 600;
+                font-size: 13px;
+                color:$noir;
+                line-height: 40px;
+                vertical-align: middle;
+                margin-top:20px;
+                transition: 0.4s ease all;
+                &:hover{
+                    transition: 0.4s ease all;
+                    background: $jaune-hover;
+                }
+                img{
+                    line-height: 40px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    margin-right: 5px;
+                    border-right:1px solid $blanc;
+                }
+            }
+            .ic{
+                margin-right:10px;
+            }
+        }
+    }
+}
+.block-titre-caracteristique{
+    background:$grey-light;
+    margin-top:50px;
+    .block-titre-classique{
+        height:40px;
+        h3{
+            line-height: 40px;
+            color:black;
+            text-transform: uppercase;
+            font-family: $open;
+            font-size: 20px;
+            font-weight:600;
+            .ic-systeme{
+                float:left;
+                padding-top:5px;
+                margin-right:15px;
+            }
+        }
+    }
+}
+.caracteristique-liste{
+    ul{
+        margin-top:50px;
+        margin-bottom:20px;
+        li{
+            font-family: $open;
+            font-size:12px;
+            margin-bottom:10px;
+            color: $noir;
+            text-align: left;
+        }
+    }
+}

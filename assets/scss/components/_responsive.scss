@@ -1,0 +1,79 @@
+@media screen and (min-width: 681px) and (max-width: 768px) {
+    header{
+        .cata2{
+            display:none;
+            visibility: none;
+        }
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 680px) {
+    header{
+        .cata2{
+            display:none;
+            visibility: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+   header{
+       #header-top{
+           .logo-block{
+               .the-logo{
+                   width:100px;
+               }
+               h1{
+                   padding-top: 20px !important;
+                   font-size:11px !important;
+               }
+           }
+       }
+       .cata{
+           display:none;
+           visibility: none;
+       }
+   }
+   #fille-dariane{
+       .breadcrumbs{
+           margin-left: 15px;
+       }
+   }
+
+   .block-titre-caracteristique{
+       .block-titre-classique{
+           h3{
+               margin-left: 15px;
+           }
+       }
+   }
+   #produit{
+       padding-left:15px;
+   }
+   #produit-similaire{
+       .products{
+           h3{
+               margin-left:15px;
+           }
+       }
+   }
+   footer{
+       .foot1{
+           text-align:center !important;
+       }
+       .foot2{
+           text-align:center !important;
+           p{
+               margin-top:30px;
+               margin-bottom: 20px;
+               text-align:center !important;
+           }
+       }
+       .foot3{
+           text-align:center !important;
+           img{
+               display:none;
+           }
+       }
+   }
+}
